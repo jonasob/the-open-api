@@ -13,6 +13,9 @@ layout: default
     <section class='body'>
       {{ post.content }}
     </section>
+    {% for provider in post.providers %}
+       <strong>{{ provider.id }}</strong>
+    {% endfor %}
   </article>
 {% endfor %}
 </section>
