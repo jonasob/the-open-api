@@ -12,10 +12,10 @@ layout: default
     <a name='{{ post.url }}' href='#{{ post.url }}'><h2>{% if post.type %}<code><b>{{ post.type }}</b> {{ post.path }}</code> {% endif %}{{ post.title }}</h2></a>
     <section class='body'>
       {{ post.content }}
+      {% for provider in post.providers %}
+         <a href="{{site.data.organisations[provider.id].url">{{ provider.id }}</a>
+      {% endfor %}
     </section>
-    {% for provider in post.providers %}
-       <strong>{{ provider.id }}</strong>
-    {% endfor %}
   </article>
 {% endfor %}
 </section>
