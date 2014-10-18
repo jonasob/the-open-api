@@ -13,7 +13,7 @@ layout: default
     <section class='body'>
       {{ post.content }}
       {% for provider in post.providers %}
-         <a href="{{site.data.organisations[provider.id].url">{{ provider.id }}</a>
+         <a href="{{site.data.organisations[provider.id].url}}">{{ provider.id }}</a>
       {% endfor %}
     </section>
   </article>
