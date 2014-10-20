@@ -1,10 +1,10 @@
 ---
-categories: - Legal services
-            - sflc
+category: Legal services
 path: '/legal/services:q'
 title: 'Get legal services'
 type: 'GET'
-
+tags:
+ - sflc
 layout: nil
 ---
 

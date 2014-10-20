@@ -1,11 +1,12 @@
 ---
-categories: - Legal services
-            - sflc
-            - fsfe
+category: Legal services
 path: '/legal/support:q'
 title: 'Get legal support'
 type: 'GET'
 layout: nil
+tags:
+ - sflc
+ - fsfe
 ---
 
 This method allows the user to get help with a question in a supporty
