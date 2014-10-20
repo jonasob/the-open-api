@@ -1,5 +1,6 @@
 ---
 category: Legal services
+tags: sflc
 path: '/legal/services:q'
 title: 'Get legal services'
 type: 'GET'

@@ -3,10 +3,7 @@ category: Legal services
 path: '/legal/support:q'
 title: 'Get legal support'
 type: 'GET'
-providers:
- - id: fsfe
- - id: sflc
-
+tags: sflc,fsfe
 layout: nil
 ---
 

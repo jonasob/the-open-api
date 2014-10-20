@@ -17,3 +17,12 @@
   </li>
 {% endfor %}
 </ul>
+<ul>
+ <li><h2>Organisations</h2>
+  <ul>
+   {% for org in site.data.orgs %}
+     <li><a href="/tags/{{ org }}">{{ org.name }}</a></li>
+   {% endfor %}
+  </ul>
+</ul>
+
