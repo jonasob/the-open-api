@@ -1,9 +1,10 @@
 ---
-category: Legal services
+categories: - Legal services
+            - sflc
+            - fsfe
 path: '/legal/support:q'
 title: 'Get legal support'
 type: 'GET'
-tags: sflc fsfe
 layout: nil
 ---
 
