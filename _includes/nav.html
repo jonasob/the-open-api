@@ -21,7 +21,7 @@
  <li><h2>Organisations</h2>
   <ul>
    {% for org in site.data.orgs %}
-     <li><a href="/tag/{{ org }}">{{ org.name }}</a></li>
+     <li><a href="/tag/{{ org | first }}">{{ org.name }}</a></li>
    {% endfor %}
   </ul>
 </ul>
